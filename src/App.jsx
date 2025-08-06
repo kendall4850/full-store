@@ -4,8 +4,8 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Navbar from "./components/Navbar";
-import ProductsList from "./components/ProductsList";
-import Cart from "./components/Cart";
+//import ProductsList from "./components/ProductsList";
+//import Cart from "./components/Cart";
 import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Contact from "./pages/Contact";
@@ -25,11 +25,6 @@ function App() {
           <Route path="services" element={<Services />} />
         </Route>
       </Routes>
-
-      <div className="flex h-[95vh]">
-        <ProductsList />
-        <Cart />
-      </div>
     </div>
   );
 }
