@@ -4,7 +4,7 @@ const ProductCard = ({ product }) => {
   const addToCart = usecartStore((state) => state.addToCart);
 
   return (
-    <div className="bg-white rounded-2xl overflow-hidden flex flex-col items-center p-4">
+    <div className="bg-[#F0E9F0] rounded-2xl overflow-hidden flex flex-col items-center p-4">
       <img
         src={product.image}
         alt=""
